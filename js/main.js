@@ -1,5 +1,8 @@
 requirejs.config({
   baseUrl: 'js/lib',
+  shim : {
+    "bootstrap" : { "deps" :['jquery'] }
+  },
   paths: {
     app: '../app',
     jquery: 'jquery-2.1.4',
@@ -7,7 +10,7 @@ requirejs.config({
   }
 });
         
-requirejs(['app'], function(app) {
+requirejs(['app', 'bootstrap'], function(app) {
   //This function is called when ./app.js is loaded.
   //If app.js calls define(), then this function is not fired until
   //app's dependencies have loaded, and the app argument will hold
