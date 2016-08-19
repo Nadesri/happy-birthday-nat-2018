@@ -6,7 +6,7 @@ requirejs.config({
   paths: {
     app: '../app',
     jquery: 'jquery-2.1.4',
-    bootstrap: 'bootstrap' // Optional: change to bootstrap.min
+    bootstrap: 'bootstrap-trick-gh' // Optional: change to bootstrap.min
   }
 });
         
