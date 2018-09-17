@@ -1,7 +1,7 @@
-Starter-Simple-Menu
+Nat's birthday 2018
 ===================
-A starter project for a simple menu. Ready for quick demo and iteration. Also will strive for style-agnostic DOM.
+A simple gift for my sister's birthday.
 
 Demonstration
 -------------
-A GitHub project page can be found at the following URL: https://nadesri.github.io/starter-website-menu/
+A GitHub project page can be found at the following URL: https://nadesri.github.io/happy-birthday-nat-2018
